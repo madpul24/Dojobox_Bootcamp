@@ -13,5 +13,5 @@ switch(true){
         document.write('Ganti buku')
         break
     default:
-        document.write("Nilai Kamu adalah E, Silahkan Remedi")
+        document.write("Menu yang dipilih, salah")
 }
