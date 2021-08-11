@@ -28,30 +28,39 @@
 //     document.write('nama yang dimasukkan bukan Saiful')
 // }
 
-var nilai = prompt('masukkan angka :');
-if(nilai % 2 == 0){
-    document.write(nilai + ' merupakan bilangan genap')
-}else if(nilai % 2 == 1){
-    document.write(nilai + ' merupakan bilangan ganjil')
-}else{
-    document.write(nilai + ' bukan merupakan bilangan')
-}
+// var namaVariable
+// let namaVariableMenggunakanLet
+// const phi = 3.14;
+// const percepatanGravitasi = 10;
 
-
-// var nilai = parseInt(prompt("masukkan nilai kepuasan anda","0-100"));
-// switch(true){
-//     case (nilai>=90):
-//         document.write('Nilai Kamu adalah A')
-//         break
-//     case (nilai>=80):
-//         document.write('Nilai Kamu adalah B')
-//         break
-//     case (nilai>=70):
-//         document.write('Nilai Kamu adalah C')
-//         break
-//     case (nilai>=60):
-//         document.write('Nilai Kamu adalah D')
-//         break
-//     default:
-//         document.write("Nilai Kamu adalah E, Silahkan Remedi")
+// var nilai = prompt('masukkan angka :');
+// if(nilai % 2 === 0){
+//     //kondisi true
+//     document.write(nilai + ' merupakan bilangan genap')
+// }else if(nilai % 2 === 1){
+//     document.write(nilai + ' merupakan bilangan ganjil')
+// }else{
+//     document.write(nilai + ' bukan merupakan bilangan')
 // }
+
+
+var nilai = parseInt(prompt("masukkan nilai kepuasan anda","0-100"));
+switch(true){
+    case (nilai>=90):
+        document.write('Nilai Kamu adalah A')
+        break
+    case (nilai>=80):
+        document.write('Nilai Kamu adalah B')
+        break
+    case (nilai>=70):
+        document.write('Nilai Kamu adalah C')
+        break
+    case (nilai>=60):
+        document.write('Nilai Kamu adalah D')
+        break
+    case (nilai>=50):
+        document.write('Nilai Kamu adalah E')
+        break
+    default:
+        document.write("Inputan Salah")
+}
